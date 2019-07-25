@@ -1,0 +1,49 @@
+README
+
+Aaron Etheridge 
+aetheri2@uncc.edu
+800936351
+
+ECGR 4181 
+HW4 Instructions
+
+I have compiled all of the versions of every part of the code into one 
+script,to run the script
+
+
+
+sudo chmod +x RUNALL.sh
+
+./RUNALL.sh
+
+
+
+To compile individual programs is:
+
+g++ -std=c++11 FILENAME.cpp -o OUTPUT
+
+./OUTPUT 2 <-(This number is the saturating counter bits)
+
+
+OR comment out portions of the script, recompile the scripts
+and rerun the ./RUNALL.sh 
+
+
+
+The out put should look like this:
+
+______________________________________________________________________________________________________________
+                                                                                                              |
+8      <--(this is the number of bits in the saturating counter)                                              |
+                                                                                                              |
+31125<-hit   count:40466 Pin Version of Local Predictor with Linpack  Miss Percentage: 0.230836               |
+                                                                                                              |
+______________________________________________________________________________________________________________|
+
+
+
+Let me know if any of these don't compile
+-I've had issues with the oneLevel.cpp program not compiling every time
+- I don't know why this is. It compiles like 90% of the time for me.
+
+
